@@ -1,0 +1,67 @@
+# Logs
+*.log
+*.log.*
+
+# Visual Studio
+.vscode/
+.vs/
+.vscode/*
+!.vscode/settings.json
+*.code-workspace
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.g.*
+*.gen.cs
+*.designer.cs
+!Migrations/*.designer.cs
+*.designer.vb
+*.nupkg
+*.snupkg
+*.Symbols.nupkg
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]el/
+[Aa][Rr][Mm]hf/
+[Aa][Rr][Mm]v6/
+[Aa][Rr][Mm]v7/
+bld/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Include if you have NuGet Packager installed in your system
+packages/
+.nuget/
+
+# Note: if you have NuGet Package Manager installed, 
+# you should also include *.nupkg files.
+*.nupkg
+
+# External tools
+.sqlproj/
+*.Publish.xml
+*.scpf
+# Rider
+.idea/
+.idea/*
+# Coverlet
+coverage*.json
+coverage*.xml
+coverage*.info
